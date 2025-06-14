@@ -14,13 +14,13 @@ const initApp = ()=>{
     
 
     menuIcon.addEventListener("click", ()=>{
-        listItems.style.right = "0px"
+        listItems.style.display = "block"
         menuIcon.style.display = "none"
         closeBtn.style.display = "block"
 
     })
     closeBtn.addEventListener("click", ()=>{
-        listItems.style.right = "-5000px"
+        listItems.style.display = "none"
         menuIcon.style.display = "block"
         closeBtn.style.display = "none"
 
