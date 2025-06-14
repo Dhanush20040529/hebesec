@@ -314,10 +314,12 @@ nav a:hover::after {
   .list-items {
     padding: 1rem;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
+    
   }
 
   .hero-section {
@@ -339,7 +341,7 @@ nav a:hover::after {
   }
 
   .hero-img img{
-    width: 270px;
+    width: 260px;
     height: 200px;
     
     margin-top: 5rem;
